@@ -6,8 +6,13 @@ We use the "Books to Scrape" website (http://books.toscrape.com/) for web scrapi
 In addition to the standard libraries (e.g., numpy, pandas), we also use the following libraries: 
 
 import requests
+
 from bs4 import BeautifulSoup
+
 from IPython.display import Image
+
 from IPython.core.display import HTML 
+
 from ipywidgets import interact
+
 import ipywidgets as widgets
